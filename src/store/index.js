@@ -8,7 +8,8 @@ const composeEnhancers = composeWithDevTools({
     shouldHotReload:false,
     features: {
         persist: false
-    }
+    },
+    actionsBlacklist: ["TICK"]
 })
 
 

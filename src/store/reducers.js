@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux';
 import {authReducer as auth} from 'modules/auth';
-import {noteReducer as notes} from 'modules/notes';
+import {engineReducer as engine} from 'modules/engine';
 export default combineReducers({
     auth,
-    notes
+    engine,
 });
