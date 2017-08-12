@@ -1,6 +1,5 @@
 import {handleActions} from 'redux-actions';
 import * as actions from './actions';
-import {statsReducer} from './stats';
 import {combineReducers} from 'react-redux';
 
 const initialState = {
@@ -28,6 +27,5 @@ const baseReducer =  handleActions({
 export default function reducer(state, action) {
     return {
     ...baseReducer(state, action),
-    stats: statsReducer(state, action)
     }
 }

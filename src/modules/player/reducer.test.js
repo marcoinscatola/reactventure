@@ -8,7 +8,6 @@ describe('The log reducer', () => {
             name: '',
             titleId: null,
             alive: true,
-            stats: expect.any(Object)
         })
     })
 
